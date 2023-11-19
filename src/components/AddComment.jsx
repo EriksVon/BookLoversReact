@@ -62,7 +62,7 @@ export default function AddComment({ asin, getAllComments }) {
               style={{ height: "150px" }}
             />
           </Form.Group>
-          <Form.Group className=" my-3">
+          <Form.Group className="d-flex flex-column justify-content-center my-3">
             <Form.Label>Would you recommend this book?</Form.Label>
             <Rating
               value={addRate}
@@ -73,7 +73,7 @@ export default function AddComment({ asin, getAllComments }) {
           <Form.Group className="mb-3 d-none">
             <Form.Control value={asin} disabled />
           </Form.Group>
-          <Form.Group className="text-center">
+          <Form.Group className="d-flex justify-content-center gap-2">
             <Button
               variant="warning"
               onClick={() => {
