@@ -14,10 +14,6 @@ function App() {
   const [inputText, setInputText] = useState("");
   const [theme, setTheme] = useState("light");
 
-  useEffect(() => {
-    console.log("Theme App:", theme);
-  }, [theme]);
-
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <SearchContext.Provider value={{ inputText, setInputText }}>
