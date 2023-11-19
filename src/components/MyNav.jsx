@@ -9,10 +9,6 @@ export default function MyNav() {
   const { inputText, setInputText } = useContext(SearchContext);
   const { theme, setTheme } = useContext(ThemeContext);
 
-  useEffect(() => {
-    console.log("Theme in MyNav:", theme);
-  }, [theme]);
-
   return (
     <Navbar
       expand="lg"
