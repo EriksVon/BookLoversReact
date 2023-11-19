@@ -1,0 +1,3 @@
+const bearer =
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTNmZWNiYmIzOTczNDAwMTRkNWU5NDciLCJpYXQiOjE2OTk1NTU5NTgsImV4cCI6MTcwMDc2NTU1OH0.LSrfnlGAUJlGUOOaVdkP8xrWMWHiXp7t1DQ8EsUgU-o";
+export { bearer };
