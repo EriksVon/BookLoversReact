@@ -10,7 +10,6 @@ export default function AddComment({ asin, getAllComments }) {
   const [addRate, setAddRate] = useState(0);
 
   const handleRating = (rate) => {
-    console.log(rate);
     setAddRate(rate);
   };
 
